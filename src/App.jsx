@@ -11,7 +11,7 @@ function App() {
 
   // Fetch API quando componente si carica
   useEffect(() => {
-    fetch('http://159.69.125.94/api/products')
+    fetch('https://ferdinandociotola.duckdns.org/api/products')
       .then(response => response.json())
       .then(data => {
         console.log(data)  // Debug: vedi struttura risposta

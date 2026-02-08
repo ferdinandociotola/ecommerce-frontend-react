@@ -18,7 +18,7 @@ function Login() {
     setLoading(true)
     setError('')
 
-    fetch('http://159.69.125.94/api/login', {
+    fetch('https://ferdinandociotola.duckdns.org/api/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

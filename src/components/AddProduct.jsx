@@ -15,7 +15,7 @@ function AddProduct({ token }) {
     setLoading(true)
     setMessage('')
 
-    fetch('http://159.69.125.94/api/admin/products', {
+    fetch('https://ferdinandociotola.duckdns.org/api/admin/products', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
